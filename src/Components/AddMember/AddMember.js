@@ -1,7 +1,7 @@
 // In AddMember.js
 const AddMember = async (userName) => {
   try {
-    const response = await fetch("http://localhost:5000/UserAdd", {
+    const response = await fetch("https://random-ranking-system-backend.onrender.com/UserAdd", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
