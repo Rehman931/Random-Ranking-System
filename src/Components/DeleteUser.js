@@ -1,7 +1,7 @@
 // DeleteUser.js
 const DeleteUser = async (selectId) => {
   try {
-    const response = await fetch("http://localhost:5000/DeleteUser", {
+    const response = await fetch("https://random-ranking-system-backend.onrender.com/DeleteUser", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
